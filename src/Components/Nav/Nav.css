@@ -1,0 +1,31 @@
+nav {
+    background-color: rgb(252, 247, 247);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.nave {
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(252, 169, 97);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(251, 151, 64);
+}

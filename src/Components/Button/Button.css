@@ -1,0 +1,23 @@
+.botonPaginas {
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+}
+
+.botonPaginas:hover:not(:disabled) {
+    background-color: #ffffff;
+    color: #ff7700;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botonPaginas:disabled {
+    background-color: #cccccc;
+    color: #666666;
+   
+}

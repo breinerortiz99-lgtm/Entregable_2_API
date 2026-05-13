@@ -1,0 +1,20 @@
+#tituloselector{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.containergeneral{
+    display: flex;
+    justify-content: start;
+    min-height: 73.7vh;
+}
+
+select{
+    width: 15vw;
+    height: 3.5vh;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
