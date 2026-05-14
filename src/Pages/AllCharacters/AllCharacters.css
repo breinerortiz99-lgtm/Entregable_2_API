@@ -1,11 +1,16 @@
-.ContainerCharacters{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin: 20px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
+.ContainerCharacters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    justify-items: center;
+}
 .containergeneral{
     display: flex;
     flex-direction: column;
@@ -27,3 +32,20 @@
 }
 
 
+@media (max-width: 900px) {
+    .ContainerCharacters {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .ContainerCharacters {
+        grid-template-columns: 1fr;
+    }
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
