@@ -1,0 +1,17 @@
+.containerDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.btnBack{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: orange;
+}
